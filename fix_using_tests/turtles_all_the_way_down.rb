@@ -9,7 +9,7 @@ end
 
 def turtle_traits(turtles)
   turtles.each do |turtle|
-    turtle.each do |trait|
+    turtle.each do |trait, key|
     binding.pry
     end
   end
