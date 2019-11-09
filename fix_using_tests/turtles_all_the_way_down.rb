@@ -12,7 +12,6 @@ def turtle_traits(turtles)
     turtle.each do |trait, key|
       if trait == :traits
         key
-        binding.pry
       end
     end
   end
