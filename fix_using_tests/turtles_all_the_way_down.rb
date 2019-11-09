@@ -10,6 +10,6 @@ end
 
 def turtle_traits(turtles)
   turtles.each do |turtle|
-    pp turtle[:traits]
+    pp turtle[0][:traits]
   end
 end
