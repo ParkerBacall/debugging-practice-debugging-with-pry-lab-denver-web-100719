@@ -11,7 +11,7 @@ def turtle_traits(turtles)
   turtles.each do |turtle|
     turtle.each do |trait, key|
       if trait == :traits
-        key
+      return  key
       end
     end
   end
