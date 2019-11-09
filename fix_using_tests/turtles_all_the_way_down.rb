@@ -10,6 +10,9 @@ end
 def turtle_traits(turtles)
   turtles.each do |turtle|
     turtle.each do |trait, key|
+      if trait == "traits"
+        key
+        
     binding.pry
     end
   end
