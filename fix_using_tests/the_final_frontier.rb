@@ -14,7 +14,7 @@ end
 def greet_crew (crew)
   array = []
   crew.each do |crew_member|
-    array_push("Hello #{crew_member}.")
+    array.push("Hello #{crew_member}.")
   end
   array
 end
