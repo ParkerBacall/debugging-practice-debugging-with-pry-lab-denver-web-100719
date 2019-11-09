@@ -16,6 +16,7 @@ def greet_crew (crew)
   crew.each do |crew_member|
     array_push("Hello #{crew_member}.")
   end
+  array
 end
 
 def engage
